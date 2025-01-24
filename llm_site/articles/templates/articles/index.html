@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Index PAGE</h1>
+    <ul>
+      <li><a href="{% url 'articles:hello' %}">Hello</a></li>
+      <li><a href="{% url 'articles:throw' %}">Throw</a></li>
+    </ul>	
+{% endblock content %}
